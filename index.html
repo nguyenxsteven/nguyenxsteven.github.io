@@ -97,12 +97,17 @@
                             <div class="subheading mb-3">Machine Learning image classifier</div>
                             <p>
                                 Built a deepfake detection pipeline using a pre trained EfficientNetB0 model to classify real versus manipulated images. Processed image datasets, trained and evaluated the model, and visualized accuracy and performance metrics to demonstrate results.
-                                Performance Metrics
-                                Total Accuracy: Achieved a cumulative detection accuracy of 75.6%.
-                                Real-Video Precision: Successfully identified 97.6% of authentic videos, ensuring that "real" verdicts are highly trustworthy.
-                                Confidence Scores: Authentic videos were identified with an average confidence of ~26% +/- 3%, whereas fakes were identified with ~52% +/- 4% confidence, allowing for clear threshold setting.
-                            </p>
+                            </p
+                            <div class="fw-bold mt-3 mb-2">Performance Metrics</div>
+                            <ul class="mb-3">
+                                <li><strong>Total Accuracy:</strong> 75.6%</li>
+                                <li><strong>Real-Video Precision:</strong> 97.6% authentic correctly identified</li>
+                                <li><strong>Confidence Scores:</strong> Real ~26% ± 3%, Fake ~52% ± 4%</li>
+                            </ul>
+                                
+
                              <p><strong>Tech:</strong> Python, TensorFlow, EfficientNetB0, Image Processing</p>
+                            
                             <p>
                                 <a href="https://github.com/nguyenxsteven/DeepfakeDetection" target="_blank" rel="noopener">View on GitHub</a>
                             </p>
